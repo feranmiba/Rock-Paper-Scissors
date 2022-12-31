@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.9;
+    background-color:  hsl(214, 47%, 23%);
+    text-rendering: optimizeLegibility;
+}
+.box {
+    border: 1mm solid  hsl(189, 59%, 53%);
+    width: 50%;
+    padding: 20px 30px 10px 30px;
+    color: white;
+    font-weight: 700;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 3mm;
+}
+.move {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0 3rem;
+}
+.rock {
+    width: 10%;
+    line-height: 0.9;
+    font-size: 40px;
+}
+.score {
+   width: 10%;
+   border: 0.5mm white solid;
+   padding: 17px 98px 0px 40px;
+   background-color: white;
+   line-height: 1.5;
+   border-radius: 3mm;
+}
+#sco {
+    font-size: 20px; 
+    line-height: 0;
+    color: hsl(229, 64%, 46%);
+    font-style: normal;
+}
+#num {
+    font-size: 45px;
+    color: hsl(229, 64%, 46%);
+}
+/* THE GAME */
+.game {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.rules {
+    margin-top: 20%;
+    margin-left: 800px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 0.5mm solid hsl(189, 59%, 53%);
+    padding: 2px 40px 2px 40px;
+    border-radius: 3mm;
+    position: absolute;
+    color: white;
+}
+.med {
+    position: absolute;
+    padding: 50px 50px 40px 50px;
+    border-radius: 50mm;
+    background-color: white;
+}
+.paper {
+    margin-left: -400px;
+    margin-top: -4%;
+    border: 5mm solid hsl(230, 89%, 62%);
+}
+.scissors {
+    margin-left: -100px;
+    border: 5mm solid hsl(39, 89%, 49%) ;
+    margin-top: -4%;
+}
+.ro {
+    border: 5mm solid hsl(349, 71%, 52%);
+    margin-top: 10%;
+    margin-left: -250px;
+}
+.pape,
+.pap {
+    border: 5mm solid hsl(230, 89%, 62%);  
+    margin-left: -300px; 
+    margin-top: 23%;
+}
+.sci,
+.sc {
+    border: 5mm solid hsl(39, 89%, 49%) ;
+    margin-left: -300px; 
+    margin-top: 23%;
+}
+.kock,
+.koc {
+    border: 5mm solid hsl(349, 71%, 52%);
+    margin-left: -300px;
+    margin-top: 23%;
+}
+.show {
+    margin-left: -350px;  
+}
+.koc,
+.sc,
+.pap {
+    margin-left: -100px;
+    margin-top: -50%;
+}
+.losa {
+    margin-left: -50px; 
+}
+.down {
+    margin-left: -350px;  
+}
+
+.circle,
+.circles {
+    background-color: hsl(229, 25%, 31%);
+    padding: 90px 90px 80px 90px;
+    border-radius: 60mm;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 100px;
+}
+.csa {
+    margin-left: 150px;  
+}
+.circles {
+    margin-left: -300px; 
+    margin-top: 23%;
+}
+.you {
+    font-size: 20px;
+    margin-left: -250px;
+    position: absolute;
+    color: white;
+    font-weight: 600;
+}
+.win {
+    margin-top: 20%;
+    position: absolute;
+    margin-left: -90px;
+    font-size: 40px;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+}
+.winner {
+    font-size: 15px;
+    text-decoration: none;
+    border: 0.5mm solid hsl(189, 59%, 53%);
+    padding: 15px 40px 15px 40px;
+    border-radius: 3mm;
+    color: hsl(229, 25%, 31%); 
+    text-transform: uppercase;
+    margin-left: -5px;
+}
+.moe {
+    margin-left: 3px;
+}
+.house {
+    font-size: 20px;
+    margin-left: 100px;
+    position: absolute;
+    color: white;
+    font-weight: 600; 
+    margin-top: -1%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(1px);
+    z-index: 2;
+    transition: all 0.15s;
+  }
+.real {
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: -5px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 8rem 10rem rgba(51, 28, 28, 0.3);
+  z-index: 10;
+  width: 40%;
+  transition: all 0.5s;
+  line-height: 6;
+}
+.talk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0 3rem;
+}
+#tex {
+    text-transform: uppercase;
+}
+.mo {
+    display: none;
+}
+.hide {
+    display: none;
+}

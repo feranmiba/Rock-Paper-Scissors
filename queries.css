@@ -1,0 +1,228 @@
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) { 
+    .real {
+        top: 50%;
+    }
+    .rules {
+        margin-left: 860px;
+    }
+    .ohh, 
+    .circles {
+        margin-top: 28%;
+    }
+    
+}
+/* big tablet to 1024px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1023px) { 
+   .box {
+    width: 65%;
+    padding: 20px 5px 10px 5px;
+    margin-left: 150px;
+   } 
+   .rock {
+    font-size: 35px;
+   }
+   .score {
+    width: 5%;
+    padding: 17px 90px 0px 32px;
+ }
+ .rules {
+    margin-left: 600px;
+    margin-top: 32%;
+}
+.game {
+    margin-top: 11%;
+}
+.paper {
+    margin-left: -400px;
+    margin-top: -9%;
+}
+.scissors {
+    margin-top: -9%; 
+}
+.ro {
+    margin-top: 13%;
+}
+.ohh, 
+.circles {
+    margin-top: 34%;
+}
+.circle {
+    margin-top: 6%; 
+}
+.real {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 60%;
+}
+}
+/* big tablet to 768px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 767px) { 
+    .real {
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 70%;
+    } 
+    .box {
+        width: 75%;
+        padding: 10px 1px 10px 1px;
+        margin-left: 85px;
+       }  
+       .game {
+        margin-top: 14%;
+    } 
+    .paper {
+        margin-left: -380px;
+        margin-top: -11%;
+    }
+    .scissors {
+        margin-top: -11%; 
+        margin-left: -120px;
+    }
+    .ro {
+        margin-top: 20%;
+    }
+    .rules {
+        margin-left: 350px;
+        margin-top: 40%;
+    }
+.ohh, 
+.circles {
+    margin-top: 28%;
+}
+.you{
+    margin-top: -15%;  
+    font-size: 16px;
+    margin-left: -200px;
+}
+.house {
+    margin-top: -10%;  
+    font-size: 16px;  
+}
+.circle {
+    margin-top: 0%; 
+    padding: 85px 85px 75px 85px;
+    margin-left: 90px;
+}
+.med {
+    padding: 45px 45px 35px 45px;
+}
+.koc,
+.sc,
+.pap { 
+    margin-top: -55%;
+}
+.ohh {
+    margin-left: -280px;
+}
+.win {
+    font-size: 32px;
+}
+.winner {
+    font-size: 14px;
+    padding: 15px 25px 15px 25px;
+    margin-left: 10px;
+}
+}
+/*small phones to small tablets: from 0  to 480px*/
+@media only screen and (max-width: 480px) { 
+    .box {
+        width: 80%;
+        padding: 10px 0px 10px 0px;
+        margin-left: 50px;
+    }
+    .rock {
+        width: 5%;
+        line-height: 0.9;
+        font-size: 22px;
+    } 
+    .score {
+        width: 5%;
+        border: 0.5mm white solid;
+        padding: 17px 78px 0px 20px;
+        
+     }
+     #sco {
+        font-size: 18px; 
+        line-height: 0;
+        color: hsl(229, 64%, 46%);
+        font-style: normal;
+    }
+    #num {
+        font-size: 35px;
+    }
+    .real {
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+        line-height: 10;
+    }
+    .danu {
+        display: flex;
+        justify-content: center;
+    }
+    .talk {
+        display: none;
+    }  
+    .mo {
+        display: inline-block;
+    } 
+    .game {
+        margin-top: 25%;
+    } 
+    .paper {
+        margin-left: -360px;
+        margin-top: -15%;
+    }
+    .scissors {
+        margin-top: -15%; 
+        margin-left: -120px;
+    }
+    .ro {
+        margin-top: 42%;
+        margin-left: -220px;
+    }
+    .win {
+        margin-top: 110%;
+        margin-left: -80px;
+    }
+    .rules {
+        margin-top: 140%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    .winner {
+        padding: 15px 50px 15px 50px;
+        font-size: 15px;
+        margin-left: -15px;
+    }
+    .ohh {
+        margin-left: -170px;
+        margin-top: 30%;
+    }
+    .circle {
+        margin-top: 5%; 
+        padding: 65px 65px 55px 65px;
+        margin-left: 30px;
+    }
+    .circles {
+        display: none;
+    }
+    .ku {
+        margin-left: -78px;
+    }
+    .med {
+        padding: 30px 30px 25px 30px;
+    }
+    .you {
+        font-size: 15px;
+        margin-left: -150px;
+       
+    }
+    .house {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: -18%;
+        
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="stylesheet" type="text/css" href="./queries.css"/>
+    <link href="https://fonts.google.com/specimen/Barlow+Semi+Condensed" rel="stylesheet" type="text/css"/>
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+<body>
+    <section class="box">
+        <div class="move">
+          <p class="rock"> Rock Paper Scissors</p> 
+            <p class="score">
+              <em id="sco">score</em> <br/>
+               <strong id="num">0</strong> 
+            </p>
+        </div>
+    </section>
+    
+
+    <section class="game">
+        <div class="first">
+            <img src="./images/bg-triangle.svg"/>
+            <img src="./images/icon-paper.svg"  class="med paper oh"  id="1"/>
+            <img src="./images/icon-scissors.svg" class="med scissors oh"  id="2"/>
+            <img src="./images/icon-rock.svg" class="med ro oh" id="3"/>
+        </div>
+
+ 
+            <a href="#" class="rules">Rules</a>
+      
+    </section>
+
+    <section class="game  thing hide">
+        <div class="move">
+           <strong class="you">You Picked</strong> 
+            <p>
+                <p  class="circles"></p>
+            <img src="./images/icon-paper.svg"  class="med pape  ohh hide" id="1"/>
+            <img src="./images/icon-scissors.svg" class="med sci  ohh hide" id="2"/>
+            <img src="./images/icon-rock.svg" class="med kock   ohh hide" id="3"/>
+        </p>  
+        
+            <p class="win hide"> 
+                <strong class="yes">You Win</strong><br/>
+                <button class="winner">Play again</button>
+            </p>
+        
+
+        <span>
+        <strong class="house">The House Picked</strong>
+            <p class="circle">
+               
+                <img src="./images/icon-paper.svg"  class="med pap ku hide" id="1"/>
+                <img src="./images/icon-scissors.svg" class="med sc ku hide" id="2"/>
+                <img src="./images/icon-rock.svg" class="med koc ku  hide" id="3"/>
+            </p>
+        </span>
+        </div>
+        <a href="#" class="rules">Rules</a>
+    </section>
+   
+    <div class="real  hide">
+        <div class="talk">
+            <h1 id="tex">rules</h1>
+           <a> <img src="./images/icon-close.svg" class="close"/></a>
+        </div>
+        <p><h1 id="tex" class="mo">rules</h1></p>
+        <img src="./images/image-rules.svg"/>
+        <a class="danu"><img src="./images/icon-close.svg" class="close  mo"/></a>
+    </div>
+    <div class="overlay hide"></div>
+   <script src="./script.js"></script>
+
+</body>
+</html>
